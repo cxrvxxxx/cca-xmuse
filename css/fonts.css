@@ -1,0 +1,21 @@
+/* Custom font registrations */
+
+@font-face {
+    font-family: "Chunk";
+    src: url("../fonts/Chunk.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Glyphicons-Halflings";
+    src: url("../fonts/glyphicons-halflings-regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Pacifico";
+    src: url("../fonts/Pacifico.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway.ttf") format("truetype");
+}

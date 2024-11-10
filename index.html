@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS Includes -->
+  <link rel="stylesheet" href="./css/containers.css">
+  <link rel="stylesheet" href="./css/variables.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Xmuse</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <!-- First Section -->
+    <section id="first" class="content primary">
+      <!-- Main Header -->
+      <header class="heading">
+        <h2 class="heading-helper">Christmas</h2>
+        <h1 class="heading-main">SALE</h1>
+      </header>
+
+      <img class="divider" src="./images/divider_white_s.png" alt="Section divider">
+
+      <!-- Subheading -->
+      <header class="subhead">
+        <h4 class="subhead-helper">CLEARANCE UP TO</h4>
+        <h3 class="subhead-main">70% OFF</h3>
+      </header>
+
+      <img class="divider" src="./images/divider_white_s.png" alt="Section divider">
+
+      <!-- Call-To-Action -->
+      <div class="cta">
+        <div class="cta-lh">
+          <img class="cta-icon-lh" src="./images/pic_01.png" alt="Raindeer facing to the left">
+        </div>
+        <div class="cta-mi">
+          <button class="btn-primary">LEARN MORE</button>
+          <img class="cta-icon-main" src="./images/icon.png" alt="Bells">
+        </div>
+        <div class="cta-rh">
+          <img class="cta-icon-rh" src="./images/pic_02.png" alt="Reindeer facing to the right">
+        </div>
+      </div>
+
+      <!-- Section Footer -->
+      <div class="section-footer sidescroll"></div>
+    </section>
+    
+    <!-- Second Section -->
+    <section id="second" class="content secondary">
+      <!-- Section Title -->
+      <header class="section-title container">
+        <h5 class="title-main">OUR HOT OFFER</h5>
+        <img src="./images/divider_green_s.png" alt="Section divider" class="divider">
+        <h6 class="title-helper">Check out our deals on limited products and make your loved ones happy!</h6>
+      </header>
+
+      <!-- Section Content -->
+      <div class="card-container container">
+        <div class="card">
+          <div class="card-img bg-hex">
+            <img src="./images/product_01_thumb.png" alt="Image of the smartphone product">
+          </div>
+          <div class="card-content">
+            <span class="prod-name">SMARPHON 5C 16GB</span>
+            <span class="prod-price">$59.50</span>
+          </div>
+          <div class="card-footer">
+            <button class="btn-primary btn-shadow">BUY NOW</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img bg-hex">
+            <img src="./images/product_02_thumb.png" alt="Image of the laptop computer">
+          </div>
+          <div class="card-content">
+            <span class="prod-name">MAKBOOK PRO 13"</span>
+            <span class="prod-price">$99.50</span>
+          </div>
+          <div class="card-footer">
+            <button class="btn-primary btn-shadow">BUY NOW</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img bg-hex">
+            <img src="./images/product_03_thumb.png" alt="Image of the desktop computer">
+          </div>
+          <div class="card-content">
+            <span class="prod-name">IMAK 27"</span>
+            <span class="prod-price">$129.50</span>
+          </div>
+          <div class="card-footer">
+            <button class="btn-primary btn-shadow">BUY NOW</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Third Section -->
+    <section id="third" class="content primary">
+      <!-- Section Header -->
+      <div class="section-header sidescroll"></div>
+
+      <!-- Section Title -->
+      <header class="section-title container">
+        <h5 class="title-main">PROMO VIDEO</h5>
+        <img src="./images/divider_white_s.png" alt="Section divider" class="divider">
+        <h6 class="title-helper">Lorem ipsum dolor sit amet. consectetuer adipiscing eit. sed diam nunummy</h6>
+      </header>
+
+      <!-- Section Content -->
+      <div class="video-preview container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aAkMkVFwAoo?si=vFxZn_7-t_Ovh7VR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+
+      <!-- Section Footer -->
+      <footer class="section-footer sidescroll"></footer>
+    </section>
+    
+    <!-- Fourth Section -->
+    <section id="fourth" class="content secondary">
+      <!-- Section Title -->
+      <header class="section-title container">
+        <h5 class="title-main">ABOUT PRODUCT #!</h5>
+        <img src="./images/divider_green_s.png" alt="Section divider" class="divider">
+        <h6 class="title-helper">Lorem ipsum dolor sit amet. consectetuer adipiscing eit. sed diam nunummy</h6>
+      </header>
+
+      <!-- Section Content -->
+       <div class="container">
+         <div id="prod1" class="slider">
+           <div class="slides">
+               <img src="./images/product_01_preview_01.jpg" alt="Product 1 preview image 1">
+               <img src="./images/product_01_preview_02.jpg" alt="Product 2 preview image 2">
+               <img src="./images/product_01_preview_03.jpg" alt="Product 3 preview image 3">
+           </div>
+           <button class="prev" onclick="prevSlide('prod1')">&#10094;</button>
+           <button class="next" onclick="nextSlide('prod1')">&#10095;</button>
+           <div id="prod1" class="indicators"></div>
+         </div>
+       </div>
+
+      <div class="prod-desc container">
+        <span class="desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</span>
+        <div class="action">
+          <span class="prod-price">$59.50</span>
+          <button class="btn-primary">BUY NOW</button>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Fifth Section -->
+    <section id="fifth" class="content primary">
+      <!-- Section Title -->
+      <div class="section-header sidescroll"></div>
+
+      <!-- Section Content -->
+      <header class="section-title container">
+        <h5 class="title-main">ABOUT PRODUCT #2</h5>
+        <img src="./images/divider_white_s.png" alt="Sectom divider" class="divider">
+        <h6 class="title-helper">Lorem ipsum dolor sit amet. consectetuer adipiscing eit. sed diam nunummy</h6>
+      </header>
+
+      <div class="container">
+        <div id="prod2" class="slider">
+          <div class="slides">
+              <img src="./images/product_02_preview_01.jpg" alt="Product 2 preview image 1">
+              <img src="./images/product_02_preview_02.jpg" alt="Product 2 preview image 2">
+              <img src="./images/product_02_preview_03.jpg" alt="Product 2 preview image 3">
+          </div>
+          <button class="prev" onclick="prevSlide('prod2')">&#10094;</button>
+          <button class="next" onclick="nextSlide('prod2')">&#10095;</button>
+          <div id="prod2" class="indicators"></div>
+        </div>
+      </div>
+
+      <div class="prod-desc container">
+        <span class="desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</span>
+        <div class="action">
+          <span class="prod-price">$99.50</span>
+          <button class="btn-primary">BUY NOW</button>
+        </div>
+      </div>
+
+      <!-- Section Footer -->
+      <footer class="section-footer sidescroll"></footer>
+    </section>
+    
+    <!-- Sixth Section -->
+    <section id="sixth" class="content secondary">
+      <!-- Section Title -->
+      <header class="section-title container">
+        <h5 class="title-main">ABOUT PRODUCT #3</h5>
+        <img src="./images/divider_green_s.png" alt="Section divider" class="divider">
+        <h6 class="title-helper">Lorem ipsum dolor sit amet. consectetuer adipiscing eit. sed diam nunummy</h6>
+      </header>
+
+      <!-- Section Content -->
+       <div class="container">
+         <div id="prod3" class="slider">
+           <div class="slides">
+               <img src="./images/product_03_preview_01.jpg" alt="Product 3 preview image 1">
+               <img src="./images/product_03_preview_02.jpg" alt="Product 3 preview image 2">
+               <img src="./images/product_03_preview_03.jpg" alt="Product 3 preview image 3">
+           </div>
+           <button class="prev" onclick="prevSlide('prod3')">&#10094;</button>
+           <button class="next" onclick="nextSlide('prod3')">&#10095;</button>
+           <div id="prod3" class="indicators"></div>
+         </div>
+       </div>
+
+      <div class="prod-desc container">
+        <span class="desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</span>
+        <div class="action">
+          <span class="prod-price">$129.50</span>
+          <button class="btn-primary">BUY NOW</button>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Seventh Section -->
+    <section id="seventh" class="content primary">
+      <!-- Section Header -->
+      <div class="section-header sidescroll"></div>
+
+      <!-- Section Title -->
+      <header class="section-title container">
+        <h5 class="title-main">WANT MORE? SUBSCRIBE!</h5>
+        <img src="./images/divider_white_s.png" alt="Section divider" class="divider">
+        <h6 class="title-helper">And get latest amazing orders first</h6>
+      </header>
+
+      <!-- Section Content -->
+      <form action="" class="form-container container">
+        <input type="text" placeholder="Enter Name" class="form-input">
+        <input type="text" placeholder="Enter Email" class="form-input">
+        <button class="btn-primary">Submit</button>
+      </form>
+
+      <!-- Section Footer -->
+      <footer class="section-footer sidescroll"></footer>
+    </section>
+    
+    <!-- Eight Section -->
+    <section id="eighth" class="content secondary">
+      <header class="section-title container">
+        <h5 class="title-main">ARE YOU INTERESTED?</h5>
+        <img src="./images/divider_green_s.png" alt="Section divider" class="divider">
+        <h6 class="title-helper">Get in touch with us</h6>
+      </header>
+
+      <!-- Contact Information -->
+      <div class="card-container">
+        <div class="card">
+          <div class="contact card-img">
+            <img class="alt-hover" src="./images/icon_mail_01.png" alt="Mail icon">
+          </div>
+          <div class="card-content">
+            <span class="prod-name">Sales: sales@supersale.com</span>
+            <span class="prod-name">Support: support@supersale.com</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="contact card-img">
+            <img class="alt-hover" src="./images/icon_call_01.png" alt="Phone icon">
+          </div>
+          <div class="card-content">
+          <span class="prod-name">Sales: +1 123 456 7890</span>
+          <span class="prod-name">Support: +! 123 456 9578</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="contact card-img">
+            <img class="alt-hover" src="./images/icon_address_01.png" alt="Address icon">
+          </div>
+          <div class="card-content">
+          <span class="prod-name">Office: Unit C2 StVincent's Trading Est.,</span>
+          <span class="prod-name">Feeder Road, London, UK</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Social Media Buttons -->
+      <div class="socials container">
+        <div class="facebook social-btn"><img src="./images/icon_fb_01.png" alt="Facebook icon"></div>
+        <div class="twitter social-btn"><img src="./images/icon_twitter_01.png" alt="Twitter icon"></div>
+        <div class="google social-btn"><img src="./images/icon_gplus_01.png" alt="Google Plus icon"></div>
+        <div class="instagram social-btn"><img src="./images/icon_instagram_01.png" alt="Instagram icon"></div>
+        <div class="pinterest social-btn"><img src="./images/icon_pinterest_01.png" alt="Pinterest icon"></div>
+        <div class="tumblr social-btn"><img src="./images/icon_tumblr_01.png" alt="Tumblr icon"></div>
+        <div class="vimeo social-btn"><img src="./images/icon_vimeo_01.png" alt="Vimeo icon"></div>
+      </div>
+
+      <!-- Page Footer -->
+      <footer class="page-footer">© XMuse - Christmas Sale / Promo Landing Muse Template by Vinyljunkie<br>
+        All rights reserved. You can buy this template.</footer>
+    </section>
+  </div>
+
+  <div class="page-indicator-container">
+    <ul>
+      <li><a class="page-indicator" data-section="section1" data-tooltip="Home" href="#first"></a></li>
+      <li><a class="page-indicator" data-section="section2" data-tooltip="Our Hot Offers" href="#second"></a></li>
+      <li><a class="page-indicator" data-section="section3" data-tooltip="Promo Video" href="#third"></a></li>
+      <li><a class="page-indicator" data-section="section4" data-tooltip="Product #1" href="#fourth"></a></li>
+      <li><a class="page-indicator" data-section="section5" data-tooltip="Product #2"href="#fifth"></a></li>
+      <li><a class="page-indicator" data-section="section6" data-tooltip="Product #3" href="#sixth"></a></li>
+      <li><a class="page-indicator" data-section="section7" data-tooltip="Signup" href="#seventh"></a></li>
+      <li><a class="page-indicator" data-section="section8" data-tooltip="Contact Us" href="#eighth"></a></li>
+    </ul>
+  </div>
+
+  <!-- JS includes -->
+  <script src="./js/slider.js"></script>
+  <script src="./js/hover.js"></script>
+  <script src="./js/scroll.js"></script>
+  <script src="./js/pages.js"></script>
+</body>
+</html>
